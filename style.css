@@ -1,0 +1,145 @@
+
+/* ===== RESET & BASE ===== */
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background: #2a0a66;
+  background: linear-gradient(135deg, #e0149f 0%, #7b0f8f 30%, #3a0a78 60%, #1b0a4f 100%);
+  background-attachment: fixed;
+}
+ 
+.page {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+ 
+/* ===== HEADER ===== */
+.header {
+  height: 80px;
+}
+ 
+.logo {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+ 
+.logo-img {
+  display: inline-block;
+  width: 140px;
+  height: 46px;
+  vertical-align: middle;
+}
+ 
+.nav {
+  display: inline-block;
+  width: 68%;
+  text-align: right;
+  vertical-align: middle;
+}
+ 
+.nav-link {
+  display: inline-block;
+  margin-left: 30px;
+  padding: 6px 14px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+ 
+.signup {
+  background: #ede7fb;
+  color: #5b1b9a;
+  border-radius: 20px;
+}
+ 
+/* ===== MAIN ===== */
+.main {
+  margin-top: 40px;
+}
+ 
+/* ----- Illustration (left) ----- */
+.illustration {
+  display: inline-block;
+  width: 600px;
+  margin-top: 20px;
+  vertical-align: top;
+}
+ 
+.illustration-img {
+  display: block;
+  width: 600px;
+  height: auto;
+}
+ 
+/* ----- Banner (right) ----- */
+.banner {
+  display: inline-block;
+  width: 520px;
+  margin-left: 30px;
+  text-align: right;
+  vertical-align: top;
+}
+ 
+.title-art {
+  margin: 20px 0 0 0;
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 1;
+}
+ 
+.title-studio {
+  margin: 10px 0 0 0;
+  font-size: 72px;
+  font-weight: 300;
+  letter-spacing: 30px;
+  line-height: 1;
+}
+ 
+.line {
+  width: 360px;
+  margin: 40px 0 40px auto;
+  border: 0;
+  border-top: 2px solid #ffffff;
+}
+ 
+.banner-text {
+  margin: 0 0 60px 0;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #e6d9f5;
+}
+ 
+.button {
+  display: inline-block;
+  padding: 26px 50px;
+  background: #7c1a94;
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+}
+ 
+.button:hover {
+  background: #a21fc4;
+}
+ 
+/* ===== FOOTER ===== */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  padding: 0 120px;
+}
+ 
+.footer p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #d8c8ee;
+}
+ 
